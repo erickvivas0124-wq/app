@@ -1,0 +1,5 @@
+- [x] Actualizar baseUrl en api_service.dart a 'http://172.20.2.10:8000'
+- [x] Aumentar timeout en fetchCards() y fetchCardDetail() a 30 segundos
+- [x] Mejorar mensaje de error en main.dart fetchCards()
+- [x] Aumentar timeout en _loadDocuments() en card_documents_page.dart a 30 segundos
+- [x] Verificar consistencia en otras llamadas API (agregado timeout a generalhistory.dart)

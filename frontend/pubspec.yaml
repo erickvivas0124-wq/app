@@ -1,0 +1,41 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.5
+  table_calendar: ^3.0.9
+  image_picker: ^1.0.4
+  flutter_secure_storage: ^9.0.0
+  qr_code_scanner: ^1.0.1
+  font_awesome_flutter: ^10.6.0
+  file_picker: ^5.2.2
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.7
+  intl: ^0.20.2
+  path_provider: ^2.1.1     
+  permission_handler: ^11.0.1  
+  share_plus: ^7.2.1          
+  open_filex: ^4.3.4         
+  device_info_plus: ^9.1.0    
+dependency_overrides:
+  file_picker:
+    git:
+      url: https://github.com/miguelpruivo/flutter_file_picker.git
+      ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
